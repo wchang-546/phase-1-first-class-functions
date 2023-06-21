@@ -1,6 +1,6 @@
 
 function receivesAFunction(callback){
-    callback();
+    callback(callback);
 }
 
 function returnsANamedFunction(){
